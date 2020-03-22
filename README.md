@@ -22,7 +22,7 @@ Open the configuration file `/etc/httpd/httpd.conf` and change the line `Listen 
 
 Clone with following settings.
 
-User - `payment`
-Path: `/home/payment`
+User - `root`
+Path: `/root`
 
 4. 
