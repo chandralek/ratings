@@ -8,5 +8,8 @@ Apache HTTPD server is more famous and this app is already provided by developer
 
 ```
 # yum install httpd -y 
+# yum install  http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y 
+# yum -y install yum-utils
+
 ```
 
