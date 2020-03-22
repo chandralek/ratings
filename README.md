@@ -45,4 +45,8 @@ Path: `/root`
 # composer install
 ```
 
+7. Start the HTTPD Service.
 
+```
+# systemctl enable httpd 
+# systemctl 
