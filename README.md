@@ -42,4 +42,7 @@ Path: `/root`
 
 ```
 # cd /var/www/html
-# composer 
+# composer install
+```
+
+
