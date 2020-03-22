@@ -34,6 +34,7 @@ Path: `/root`
 5. Copy the ratings static content.
 
 ```
-# cp 
+# rm -rf /var/www/html
+# cp -r /root/ratings/html /var/www
 ```
 
