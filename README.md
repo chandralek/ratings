@@ -31,5 +31,9 @@ Path: `/root`
 # cp /root/ratings/status.conf /etc/httpd/conf.d/
 ```
 
-5. Copy the 
+5. Copy the ratings static content.
+
+```
+# 
+```
 
