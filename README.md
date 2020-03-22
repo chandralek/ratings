@@ -31,5 +31,5 @@ Path: `/root`
 # cp /root/ratings/status.conf /etc/httpd/conf.d/
 ```
 
-5. 
+5. Copy the 
 
