@@ -25,4 +25,5 @@ Clone with following settings.
 User - `root`
 Path: `/root`
 
-4. Copy 
+4. Copy ratings config.
+
