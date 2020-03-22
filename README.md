@@ -35,6 +35,6 @@ Path: `/root`
 
 ```
 # rm -rf /var/www/html
-# cp -r /root/ratings/html /var/www
+# cp -r /root/ratings/html /var/www/html
 ```
 
