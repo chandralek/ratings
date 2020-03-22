@@ -34,6 +34,6 @@ Path: `/root`
 5. Copy the ratings static content.
 
 ```
-# 
+# cp 
 ```
 
