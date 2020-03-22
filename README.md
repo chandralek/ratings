@@ -49,4 +49,7 @@ Path: `/root`
 
 ```
 # systemctl enable httpd 
-# systemctl 
+# systemctl start httpd
+```
+
+
