@@ -38,4 +38,8 @@ Path: `/root`
 # cp -r /root/ratings/html /var/www/html
 ```
 
-6. 
+6. Install PHP dependencies.
+
+```
+# cd /var/www/html
+# 
