@@ -27,3 +27,6 @@ Path: `/root`
 
 4. Copy ratings config.
 
+`    cp status.conf /etc/httpd/conf.d/
+
+`
