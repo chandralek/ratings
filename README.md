@@ -16,4 +16,6 @@ Apache HTTPD server is more famous and this app is already provided by developer
 
 2. Change the port number of Apache Web Server to 7004.
 
-Open the configuration file `/etc/httpd/httpd.conf` and change the 
+Open the configuration file `/etc/httpd/httpd.conf` and change the line `Listen 80` to `Listen 7004`.
+
+3. 
