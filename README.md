@@ -25,4 +25,4 @@ Clone with following settings.
 User - `root`
 Path: `/root`
 
-4. 
+4. Copy 
