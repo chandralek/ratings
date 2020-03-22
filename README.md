@@ -18,4 +18,6 @@ Apache HTTPD server is more famous and this app is already provided by developer
 
 Open the configuration file `/etc/httpd/httpd.conf` and change the line `Listen 80` to `Listen 7004`.
 
-3. 
+3. Clone the code.
+
+4. 
