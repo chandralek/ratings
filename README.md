@@ -7,5 +7,6 @@ Apache HTTPD server is more famous and this app is already provided by developer
 1. Install Apache HTTPD Web Server.
 
 ```
-
+# yum install httpd -y 
 ```
+
