@@ -20,4 +20,9 @@ Open the configuration file `/etc/httpd/httpd.conf` and change the line `Listen 
 
 3. Clone the code.
 
+Clone with following settings.
+
+User - `payment`
+Path: `/home/payment`
+
 4. 
