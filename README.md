@@ -1,3 +1,3 @@
 # Ratings Service.
 
-R
+Ratings service is developed on PHP. PHP will bo
