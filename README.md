@@ -38,3 +38,4 @@ Path: `/root`
 # cp -r /root/ratings/html /var/www/html
 ```
 
+6. 
