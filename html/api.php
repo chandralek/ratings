@@ -142,7 +142,7 @@ class RatingsAPI extends API {
 
     // check sku exists in product catalogue
     private function _checkSku($sku) {
-        $url = getenv('CATALOGUE_URL') ? getenv('CATALOGUE_URL') : 'http://catalogue:8080/';
+        $url = getenv('CATALOGUE_URL') ? getenv('CATALOGUE_URL') : 'http://localhost:8080/';
         $url = $url . 'product/' . $sku;
 
         $opt = array(
