@@ -23,7 +23,7 @@ pipeline {
     stage('Upload To Nexus') {
       steps {
         sh '''
-          curl -f -v -u $NEXUS --upload-file ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devopsb46.online/repository/ratings-service/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
+          curl -f -v -u $NEXUS --upload-file html/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devopsb46.online/repository/ratings-service/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
         '''
       }
     }
