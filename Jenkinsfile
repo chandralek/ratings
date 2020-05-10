@@ -1,0 +1,21 @@
+pipeline {
+  agent {
+    label 'SLAVE'
+  }
+  stages{
+    stage('Create an archive file'){
+      steps{
+        sh '''
+        tar -cvf ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz `ls html`
+        '''
+      }
+    }
+    stage('Upload to Nexus'){
+      steps{
+        sh '''
+     curl -f -v -u $NEXUS --upload-file ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devops46.online/repository/ratings-service/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
+      '''
+      }
+    }
+  }
+}
