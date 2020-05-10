@@ -6,14 +6,15 @@ pipeline {
     stage('Create an archive file'){
       steps{
         sh '''
-        tar -cvf ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz `ls html`
+        cd html
+        tar -cvf ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz `ls`
         '''
       }
     }
     stage('Upload to Nexus'){
       steps{
         sh '''
-     curl -f -v -u $NEXUS --upload-file ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devops46.online/repository/ratings-service/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
+     curl -f -v -u $NEXUS --upload-file html/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devops46.online/repository/ratings-service/ratings-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
       '''
       }
     }
