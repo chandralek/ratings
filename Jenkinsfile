@@ -2,6 +2,11 @@ pipeline {
   agent {
     label 'SLAVE'
   }
+
+  environment{
+    MAJOR_VERSION="1.0"
+    NEXUS=credentials('Nexus')
+  }
   stages{
     stage('Create an archive file'){
       steps{
